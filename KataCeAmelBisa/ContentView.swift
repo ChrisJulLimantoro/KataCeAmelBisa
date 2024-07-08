@@ -83,8 +83,9 @@ struct ContentView: View {
     private func stopRecording() {
         self.audioRecorder?.stop()
         self.isRecording = false
-        
+        print("debug: stopRec")
         if let url = self.audioFileURL {
+            print("debug: transcribe")
             transcribeAudio(url: url)
         }
     }
@@ -95,8 +96,10 @@ struct ContentView: View {
         let request = SFSpeechURLRecognitionRequest(url: url)
         
         recognizer?.recognitionTask(with: request) { result, error in
+            print("\(String(describing: result))")
             if let result = result {
                 self.recognizedText = result.bestTranscription.formattedString
+                print("\(self.recognizedText)")
             } else if let error = error {
                 print("There was an error: \(error.localizedDescription)")
             }
