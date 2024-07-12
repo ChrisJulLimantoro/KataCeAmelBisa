@@ -11,7 +11,7 @@ import SwiftUI
 struct KataCeAmelBisaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AllRecordingsView()
         }
     }
 }

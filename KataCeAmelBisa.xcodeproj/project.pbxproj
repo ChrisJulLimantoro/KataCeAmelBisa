@@ -14,6 +14,7 @@
 		A4CC15582C3BD70B00A2612E /* KataCeAmelBisaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CC15572C3BD70B00A2612E /* KataCeAmelBisaTests.swift */; };
 		A4CC15622C3BD70B00A2612E /* KataCeAmelBisaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CC15612C3BD70B00A2612E /* KataCeAmelBisaUITests.swift */; };
 		A4CC15642C3BD70B00A2612E /* KataCeAmelBisaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CC15632C3BD70B00A2612E /* KataCeAmelBisaUITestsLaunchTests.swift */; };
+		E18AFB792C3E6E38002F3C5C /* AllRecordingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18AFB782C3E6E38002F3C5C /* AllRecordingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A4CC155D2C3BD70B00A2612E /* KataCeAmelBisaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KataCeAmelBisaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4CC15612C3BD70B00A2612E /* KataCeAmelBisaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataCeAmelBisaUITests.swift; sourceTree = "<group>"; };
 		A4CC15632C3BD70B00A2612E /* KataCeAmelBisaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataCeAmelBisaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E18AFB782C3E6E38002F3C5C /* AllRecordingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRecordingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				A4CC15462C3BD70A00A2612E /* KataCeAmelBisaApp.swift */,
+				E18AFB782C3E6E38002F3C5C /* AllRecordingsView.swift */,
 				A4CC15482C3BD70A00A2612E /* ContentView.swift */,
 				A4CC154A2C3BD70B00A2612E /* Assets.xcassets */,
 				A4CC154C2C3BD70B00A2612E /* Preview Content */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E18AFB792C3E6E38002F3C5C /* AllRecordingsView.swift in Sources */,
 				A4CC15492C3BD70A00A2612E /* ContentView.swift in Sources */,
 				A4CC15472C3BD70A00A2612E /* KataCeAmelBisaApp.swift in Sources */,
 			);
@@ -422,7 +426,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"KataCeAmelBisa/Preview Content\"";
-				DEVELOPMENT_TEAM = 46T3YJRUSN;
+				DEVELOPMENT_TEAM = PV62VMPQYM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone Access";
@@ -453,7 +457,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"KataCeAmelBisa/Preview Content\"";
-				DEVELOPMENT_TEAM = 46T3YJRUSN;
+				DEVELOPMENT_TEAM = PV62VMPQYM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone Access";
